@@ -1,0 +1,1418 @@
+Divisibility
+1) Which one of the following numbers is divisible by 99?
+
+a) 3572404 b) 135792 c) 913464 d) 114345
+
+
+2) If n is an integer, what is the remainder when (2n + 2)2
+is divided by 4?
+
+3) Find two nearest numbers to 19506 which are divisible by 9?
+
+4) What is the value of M and N respectively if M39048458N is
+divisible by 8 and 11, where M and N are single digit integers?
+
+5) How many pairs of X and Y are possible in the number
+763X4Y2, if the number is divisible by 9?
+
+6) When the integer n is divided by 8, the remainder is 3. What
+is the remainder if 6n is divided by 8?
+
+7) If the product 4864 x 9P2 is divisible by 12, then what is the
+value of P?
+
+8) If the number 7X86038 is exactly divisible by 11, then the
+smallest whole number in place of X?
+
+9) If an integer n is divisible by 3, 5 and 12, what is the next
+larger integer divisible by all these numbers?
+a) n2
+b) n + 180 c) 2n d) n + 60
+
+10) What is the product of the largest and the smallest possible values of M for which a number 5M83M4M1 is divisible by 9?
+
+Solution __________________________________________
+
+To check if a number is divisible by 99, we need to ensure that it is divisible by both 9 and 11.
+a) 3572404: Sum of digits = 3 + 5 + 7 + 2 + 4 + 0 + 4 = 25, which is not divisible by 9. So, this number is not divisible by 99.
+
+b) 135792: Sum of digits = 1 + 3 + 5 + 7 + 9 + 2 = 27, which is divisible by 9. Also, the number seems to be in an ascending order, which means the difference between consecutive digits is 1. So, this number is divisible by 11.
+
+c) 913464: Sum of digits = 9 + 1 + 3 + 4 + 6 + 4 = 27, which is divisible by 9. However, the number doesn't have a clear pattern like option (b) to be divisible by 11.
+
+d) 114345: Sum of digits = 1 + 1 + 4 + 3 + 4 + 5 = 18, which is divisible by 9. This number is not divisible by 11.
+
+Therefore, the number "135792" is divisible by 99. So, the correct answer is (b) 135792.
+
+To find the remainder when (2n + 2)^2 is divided by 4, we need to consider the possible remainders of n when divided by 4.
+If n is even (n = 2k, where k is an integer), then (2n + 2)^2 = (4k + 2)^2 = 16k^2 + 16k + 4 = 4(4k^2 + 4k) + 4, which leaves a remainder of 4 when divided by 4.
+
+If n is odd (n = 2k + 1, where k is an integer), then (2n + 2)^2 = (4k + 4)^2 = 16k^2 + 32k + 16 = 4(4k^2 + 8k + 4) = 4m (where m = 4k^2 + 8k + 4), which leaves a remainder of 0 when divided by 4.
+
+So, when (2n + 2)^2 is divided by 4:
+
+If n is even, the remainder is 4.
+If n is odd, the remainder is 0.
+To find two nearest numbers to 19506 that are divisible by 9, we need to find the largest multiple of 9 that is less than 19506 and the smallest multiple of 9 that is greater than 19506.
+The largest multiple of 9 that is less than 19506:
+19506 ÷ 9 = 2167 with a remainder of 3
+19506 - 3 = 19503 (divisible by 9)
+
+The smallest multiple of 9 that is greater than 19506:
+19506 ÷ 9 = 2167 with a remainder of 3
+19506 + (9 - 3) = 19506 + 6 = 19512 (divisible by 9)
+
+So, the two nearest numbers to 19506 that are divisible by 9 are 19503 and 19512.
+
+To find the values of M and N in the number M39048458N such that it is divisible by 8 and 11, we need to check the divisibility rules for 8 and 11.
+Divisibility by 8: The last three digits of the number should be divisible by 8. So, N must be either 0, 8, or 6 to satisfy this condition.
+
+Divisibility by 11: Apply the alternating sum rule for divisibility by 11. The difference between the sum of digits at odd places and the sum of digits at even places should be divisible by 11.
+
+M + 3 + 0 + 4 + 8 + N - (9 + 0 + 4 + 8 + 5) = M + N - 16
+
+For this to be divisible by 11, M + N must be 5 or 16.
+
+Possible values for M and N:
+
+M = 1, N = 4 (sum = 5) -> M390484584 is divisible by 11 but not by 8.
+M = 4, N = 1 (sum = 5) -> M390484581 is divisible by both 8 and 11.
+So, the values of M and N are 4 and 1, respectively.
+
+To determine the possible pairs of X and Y in the number 763X4Y2 such that the number is divisible by 9, we need to consider the divisibility rule for 9.
+A number is divisible by 9 if the sum of its digits is divisible by 9.
+
+763X4Y2: Sum of digits = 7 + 6 + 3 + X + 4 + Y + 2 = 22 + X + Y
+
+For 763X4Y2 to be divisible by 9, the sum of digits (22 + X + Y) must be divisible by 9.
+
+Possible pairs of X and Y that make the sum (22 + X + Y) divisible by 9 are:
+
+X = 1, Y = 6 (22 + 1 + 6 = 29) -> Not divisible by 9
+X = 4, Y = 5 (22 + 4 + 5 = 31) -> Not divisible by 9
+X = 7, Y = 0 (22 + 7 + 0 = 29) -> Not divisible by 9
+None of the pairs makes the number divisible by 9. So, there are no possible pairs of X and Y that satisfy the condition.
+
+When an integer n is divided by 8, the remainder is 3. We can express this as n ≡ 3 (mod 8).
+To find the remainder if 6n is divided by 8, we can multiply both sides of the congruence by 6:
+
+6n ≡ 6 * 3 (mod 8)
+6n ≡ 18 (mod 8)
+
+Now, find the remainder of 18 when divided by 8:
+
+18 ÷ 8 = 2 with a remainder of 2.
+
+So, the remainder when 6n is divided by 8 is 2.
+
+If the product 4864 x 9P2 is divisible by 12, then we need to check if it is divisible by both 3 and 4.
+Divisibility by 3: The sum of digits in 4864 is 4 + 8 + 6 + 4 = 22, and the sum of digits in 9P2 is 9 + P + 2 = 11 + P. For the product to be divisible by 3, the sum of these two sums must be divisible by 3.
+
+22 + (11 + P) = 33 + P
+
+For this to be divisible by 3, P must be 0 or 3.
+
+Divisibility by 4: The last two digits of 4864 are 64, which is divisible by 4. For the product to be divisible by 4, 9P2 must also be divisible by 4. For this to happen, P must be even.
+
+Possible values for P are 0 and 3. Since P cannot be odd, the only valid option is P = 0.
+
+So, the value of P is 0.
+
+If the number 7X86038 is exactly divisible by 11, then the sum of alternate digits should have the same difference as the remaining sum of alternate digits.
+7 + 8 + 6 + 8 - (X + 0 + 3) = 7 + X - 11
+
+Simplify:
+29 - X = 7 + X - 11
+2X = 33
+X = 33/2
+X = 16.5
+
+Since X must be a single-digit integer, there is no whole number that can replace X in the given number to make it divisible by 11.
+
+To find the next larger integer divisible by 3, 5, and 12, we need to find the least common multiple (LCM) of these numbers.
+LCM(3, 5, 12) = 60
+
+The next larger integer divisible by 3, 5, and 12 is 60 more than the given integer "n".
+
+So, the next larger integer divisible by 3, 5, and 12 is n + 60.
+
+The correct answer is (d) n + 60.
+
+To find the product of the largest and smallest possible values of M for which the number 5M83M4M1 is divisible by 9, we need to consider the divisibility rule for 9.
+A number is divisible by 9 if the sum of its digits is divisible by 9.
+
+5 + M + 8 + 3 + M + 4 + M + 1 = 21 + 3M
+
+For 5M83M4M1 to be divisible by 9, the sum of digits (21 + 3M) must be divisible by 9.
+
+Possible values for M:
+
+M = 1 (21 + 3 * 1 = 24) -> Not divisible by 9
+M = 2 (21 + 3 * 2 = 27) -> Divisible by 9
+So, the largest possible value of M is 2, and the smallest possible value of M is 1.
+
+Product of the largest and smallest values of M: 2 * 1 = 2.
+
+The correct answer is 2.
+
+
+
+
+
+-------------Unit digits (Cyclicity)
+
+
+1) What is the unit digit in the product (365 x 659 x 771)?
+
+2) Find unit digit of product (173)45*(152)77*(777)999
+
+3) What is the unit's digit of the number 6256–4
+256?
+
+4) Find the unit's digit in 264102+264103
+
+5) What is the unit digit of (316)3n + 1?
+
+6) What is the unit digit in (795- 358)?
+
+
+7) What is the rightmost non-zero digit of the number 302720
+
+8) What will be the last digit of the number obtained by
+multiplying the numbers 81*82*83*84*86*87*88*89?
+
+9) Find the last three-digits of the product: 12345x54321
+
+10) Find the last digit of 15+25+35......95
+
+
+Solve ________________________________________________________
+
+
+
+
+2 / 2
+
+Unit digits (Cyclicity):
+
+To find the unit digit in the product (365 x 659 x 771), we need to find the unit digit of each individual number and then multiply them.
+Unit digit of 365: 5
+Unit digit of 659: 9
+Unit digit of 771: 1
+
+5 x 9 x 1 = 45
+
+The unit digit in the product is 5.
+
+To find the unit digit of the product (173)45 * (152)77 * (777)999, we need to find the unit digit of each individual number and then perform the multiplication.
+Unit digit of 173: 3
+Unit digit of 152: 2
+Unit digit of 777: 7
+
+Since any number raised to the power of 77 or higher will have the same unit digit as when raised to the power of 7, we can consider the unit digit of (152)77 as the unit digit of 152.
+
+Now, (152)77 ≡ 2^77 (mod 10).
+
+To find the unit digit of 2^77, we need to find the pattern of unit digits when powers of 2 are raised.
+
+2^1 ≡ 2 (mod 10)
+2^2 ≡ 4 (mod 10)
+2^3 ≡ 8 (mod 10)
+2^4 ≡ 6 (mod 10)
+2^5 ≡ 2 (mod 10)
+
+The pattern repeats every 4 powers of 2. So, 2^77 ≡ 2^1 ≡ 2 (mod 10).
+
+Now, let's find the unit digit of the entire product:
+
+Unit digit of (173)45: 3^5 ≡ 3 (mod 10)
+Unit digit of (152)77: 2 (from above calculation)
+Unit digit of (777)999: 7^9 ≡ 7 (mod 10)
+
+Now, 3 x 2 x 7 = 42
+
+The unit digit in the product is 2.
+
+To find the unit's digit of the number 6256 – 4256, we need to subtract the unit digits of the two numbers.
+Unit digit of 6256: 6
+Unit digit of 4256: 6
+
+6 - 6 = 0
+
+The unit's digit of the number 6256 – 4256 is 0.
+
+To find the unit's digit in 264102 + 264103, we need to add the unit digits of the two numbers.
+Unit digit of 264102: 2
+Unit digit of 264103: 3
+
+2 + 3 = 5
+
+The unit's digit in the sum is 5.
+
+To find the unit digit of (316)3n + 1, we need to consider the cyclicity of the unit digits of powers of 6.
+Powers of 6 (unit digits):
+6^1 ≡ 6 (mod 10)
+6^2 ≡ 6 (mod 10)
+6^3 ≡ 6 (mod 10)
+6^4 ≡ 6 (mod 10)
+...
+
+The pattern repeats every 4 powers of 6, and the unit digit is always 6. So, (316)3n ≡ 6 (mod 10).
+
+Now, (316)3n + 1 ≡ 6 + 1 ≡ 7 (mod 10).
+
+The unit digit in the expression is 7.
+
+To find the unit digit in (795 - 358), we need to perform the subtraction and consider the unit digit of the result.
+795 - 358 = 437
+
+The unit digit in the result is 7.
+
+To find the rightmost non-zero digit of the number 302720, we need to consider the cyclicity of the unit digits of powers of 2.
+Powers of 2 (unit digits):
+2^1 ≡ 2 (mod 10)
+2^2 ≡ 4 (mod 10)
+2^3 ≡ 8 (mod 10)
+2^4 ≡ 6 (mod 10)
+2^5 ≡ 2 (mod 10)
+
+The pattern repeats every 4 powers of 2. Since 720 is divisible by 4, the unit digit of 2^720 is the same as that of 2^4, which is 6.
+
+Therefore, the rightmost non-zero digit of the number 302720 is 6.
+
+To find the last digit of the number obtained by multiplying the numbers 81 * 82 * 83 * 84 * 86 * 87 * 88 * 89, we need to consider the last digit of each individual number and then perform the multiplication.
+Last digit of 81: 1
+Last digit of 82: 2
+Last digit of 83: 3
+Last digit of 84: 4
+Last digit of 86: 6
+Last digit of 87: 7
+Last digit of 88: 8
+Last digit of 89: 9
+
+1 * 2 * 3 * 4 * 6 * 7 * 8 * 9 = 120
+
+The last digit of the product is 0.
+
+To find the last three digits of the product: 12345 * 54321, we need to perform the multiplication and consider only the last three digits of the result.
+12345 * 54321 = 669,166,545
+
+The last three digits of the product are 545.
+
+To find the last digit of 15 + 25 + 35 + ... + 95, we need to find the pattern of the sum.
+The given sequence is an arithmetic sequence with a common difference of 10:
+
+15, 25, 35, 45, 55, 65, 75, 85, 95
+
+To find the last digit of the sum, we can group the terms:
+
+(15 + 85) + (25 + 75) + (35 + 65) + (45 + 55) + 95
+
+100 + 100 + 100 + 100 + 95
+
+Since the sum of any two consecutive terms (except for the last pair) is 100, we can group them in multiples of 100. The sum of the first four groups is 4 * 100 = 400.
+
+Now, 400 + 95 = 495
+
+The last digit of the sum is 5.
+
+
+
+ --------------------------------Factorials
+
+1) What is the highest power of 21 that divides 20!?
+
+2) What is the highest power of 32 that divides 31!?
+
+3) Find the largest number less than 28 which divides 28!?
+
+4) Find the number of zeroes at the end of 97!
+
+5) What is the highest power of 12 that divides 54!?
+
+6) Find the least value of x such that 60!/2^x is an odd number.
+
+7) Find the least value of ‘n’ if no factorial can have ‘n’ zeroes?
+
+8) What is the highest power of 7! dividing 50! completely.
+
+9) How many more trailing zeroes would 625! have than 624!?
+
+10) Find the number of zeroes at the end of 1
+
+1×22×33.....×100100
+
+--------------------------Factors
+
+
+
+1) What is the number of prime factors in 6
+4
+x8
+6
+x108
+x14
+10x2212
+
+2) N= a4
+xb3
+xc7
+. Find the number of perfect square factors of N
+
+where a,b,c are three distinct prime numbers.
+3) How many factors of 123
+x304
+x35
+2 are even numbers?
+
+4) If N=27×34
+
+, M= 24×32×5, then find the number of factors of N
+
+that are common with the factors of M.
+5) N is the smallest number that has 5 factors. How many
+factors does (N - 1) have?
+6) If both 112 and 34 are factors of the number Ax4
+3
+x6
+2
+x1311
+,
+
+then what is the smallest possible value of A?
+7) Find the total number of factors of 10!
+8) How many factors of 2
+7
+x36
+x54
+x73 are even perfect squares?
+9) In how many ways can 480 be written as a product of two
+natural numbers?
+10) How many factors of 2
+5
+x34
+x53 are not the factors of
+
+2
+3
+x54
+x75
+
+
+solution_________________________________________________________________________________
+
+To answer these questions, we need to find the highest power of the given number that divides the factorial. Let's tackle each question one by one:
+
+What is the highest power of 21 that divides 20!?
+Solution: To find the highest power of 21 that divides 20!, we need to determine the number of times 21 (3*7) appears as a factor in the prime factorization of 20!.
+Step 1: Find the number of times 3 appears in the prime factorization of 20!
+20! = 2^18 * 3^8 * 5^4 * 7^2 * 11 * 13 * 17 * 19
+
+Step 2: Find the number of times 7 appears in the prime factorization of 20!
+20! = 2^18 * 3^8 * 5^4 * 7^2 * 11 * 13 * 17 * 19
+
+Since the highest power of 21 is 3*7, which appears twice in the prime factorization of 20!, the answer is 2.
+
+What is the highest power of 32 that divides 31!?
+Solution: To find the highest power of 32 that divides 31!, we need to determine the number of times 32 (2^5) appears as a factor in the prime factorization of 31!.
+Step 1: Find the number of times 2 appears in the prime factorization of 31!
+31! = 2^28 * 3^13 * 5^7 * 7^4 * 11^2 * 13 * 17 * 19 * 23 * 29 * 31
+
+Step 2: Find the number of times 2^5 (32) appears in the prime factorization of 31!
+31! = 2^28 * 3^13 * 5^7 * 7^4 * 11^2 * 13 * 17 * 19 * 23 * 29 * 31
+
+Since the highest power of 32 that divides 31! is 2^5, the answer is 5.
+
+Find the largest number less than 28 which divides 28!?
+Solution: To find the largest number less than 28 which divides 28!, we need to find the largest prime factor that is less than 28. The largest prime less than 28 is 23.
+So, the answer is 23.
+
+Find the number of zeroes at the end of 97!?
+Solution: To find the number of zeroes at the end of 97!, we need to find the number of times 10 (2 * 5) appears as a factor in the prime factorization of 97!.
+Step 1: Find the number of times 5 appears in the prime factorization of 97!
+97! = 2^95 * 3^46 * 5^22 * 7^16 * 11^9 * 13^7 * 17^5 * 19^5 * 23^4 * 29^3 * 31^3 * 37^2 * 41^2 * 43^2 * 47^2 * 53 * 59 * 61 * 67 * 71 * 73 * 79 * 83 * 89 * 97
+
+Step 2: Find the number of times 2 appears in the prime factorization of 97!
+97! = 2^95 * 3^46 * 5^22 * 7^16 * 11^9 * 13^7 * 17^5 * 19^5 * 23^4 * 29^3 * 31^3 * 37^2 * 41^2 * 43^2 * 47^2 * 53 * 59 * 61 * 67 * 71 * 73 * 79 * 83 * 89 * 97
+
+Since there are more 2's than 5's in the prime factorization of 97!, we count the number of 5's. The highest power of 5 that divides 97! is 5^22. Therefore, there are 22 zeroes at the end of 97!.
+
+What is the highest power of 12 that divides 54!?
+Solution: To find the highest power of 12 that divides 54!, we need to determine the number of times 12 (2^2 * 3^1) appears as a factor in the prime factorization of 54!.
+Step 1: Find the number of times 2 appears in the prime factorization of 54!
+54! = 2^51 * 3^25 * 5^12 * 7^8 * 11^4 * 13^3 * 17^2 * 19^2 * 23^2 * 29 * 31 * 37 * 41 * 43 * 47 * 53
+
+Step 2: Find the number of times 3 appears in the prime factorization of 54!
+54! = 2^51 * 3^25 * 5^12 * 7^8 * 11^4 * 13^3 * 17^2 * 19^2 * 23^2 * 29 * 31 * 37 * 41 * 43 * 47 * 53
+
+Since the highest power of 12 is 2^2 * 3^1, which appears 25 times in the prime factorization of 54!, the answer is 25.
+
+Find the least value of x such that 60!/2^x is an odd number.
+Solution: An even number can be written in the form 2^k * odd number. Since we want 60!/2^x to be odd, we need to find the highest power of 2 that divides 60!.
+Step 1: Find the number of times 2 appears in the prime factorization of 60!
+60! = 2^56 * 3^28 * 5^13 * 7^10 * 11^5 * 13^4 * 17^3 * 19^3 * 23^2 * 29^2 * 31^2 * 37^1 * 41^1 * 43^1 * 47^1 * 53^1 * 59^1
+
+Since the highest power of 2 that divides 60! is 2^56, we need x to be at least 56 for 60!/2^x to be odd.
+
+Find the least value of ‘n’ if no factorial can have ‘n’ zeroes?
+Solution: The number of trailing zeroes in a factorial is determined by the number of factors of 5 in the factorial. So, we need to find the smallest factorial that has no factors of 5.
+The smallest factorial without factors of 5 is 4!. For any factorial greater than 4!, there will always be at least one factor of 5. Therefore, the least value of 'n' is 4.
+
+What is the highest power of 7! dividing 50! completely.
+Solution: To find the highest power of 7! that divides 50! completely, we need to determine the number of times 7! appears as a factor in the prime factorization of 50!.
+Step 1: Find the number of times 7 appears in the prime factorization of 50!
+50! = 2^47 * 3^22 * 5^12 * 7^8 * 11^4 * 13^3 * 17^2 * 19^2 * 23^1 * 29^1 * 31^1 * 37^1 * 41^1 * 43^1 * 47^1
+
+Step 2: Find the number of times 7! appears in the prime factorization of 50!
+Since 7! = 2^4 * 3^2 * 5^1 * 7^1, we need to find the minimum number of times each of these prime factors appears in the prime factorization of 50!.
+
+The highest power of 2 that appears in the prime factorization of 50! is 2^47.
+The highest power of 3 that appears in the prime factorization of 50! is 3^22.
+The highest power of 5 that appears in the prime factorization of 50! is 5^12.
+The highest power of 7 that appears in the prime factorization of 50! is 7^8.
+
+Therefore, the highest power of 7! that divides 50! completely is 7^8.
+
+How many more trailing zeroes would 625! have than 624!?
+Solution: To find the number of trailing zeroes in 625! and 624!, we need to determine the number of factors of 5 in the factorials.
+Step 1: Find the number of times 5 appears in the prime factorization of 625!
+625! = 2^617 * 3^307 * 5^156 * 7^103 * 11^77 * 13^62 * 17^47 * 19^41 * 23^33 * 29^26 * 31^23 * 37^18 * 41^16 * 43^15 * 47^13 * 53^11 * 59^10 * 61^10 * 67^9 * 71^8 * 73^8 * 79^7 * 83^6 * 89^6 * 97^5 * 101^5 * ...
+
+Step 2: Find the number of times 5 appears in the prime factorization of 624!
+624! = 2^617 * 3^307 * 5^155 * 7^103 * 11^77 * 13^62 * 17^47 * 19^41 * 23^33 * 29^26 * 31^23 * 37^18 * 41^16 * 43^15 * 47^13 * 53^11 * 59^10 * 61^10 * 67^9 * 71^8 * 73^8 * 79^7 * 83^6 * 89^6 * 97^5 * 101^4 * ...
+
+To find the difference in trailing zeroes, we need to compare the number of 5's in the factorization of 625! and 624!. Since the difference is only one (156 - 155 = 1), 625! has one more trailing zero than 624!.
+
+Find the number of zeroes at the end of the product:
+1 × 22 × 33 × ... × 100100
+only given solution and answer
+Solution: To find the number of zeroes at the end of the product 1 × 22 × 33 × ... × 100100, we need to determine the number of factors of 10 in the product, as 10 = 2 * 5.
+Since 10 = 2 * 5, there will be a trailing zero for each pair of 2 and 5 in the product.
+
+Step 1: Find the number of times 5 appears in the product.
+The numbers in the product are 1, 22, 33, ..., 100100. The only numbers that contribute factors of 5 are multiples of 5 and multiples of 25.
+
+Number of multiples of 5 from 1 to 100100 = 100100 / 5 = 20,020
+Number of multiples of 25 from 1 to 100100 = 100100 / 25 = 4,004
+
+Total number of factors of 5 = 20,020 + 4,004 = 24,024
+
+Step 2: Find the number of times 2 appears in the product.
+The product includes all the even numbers up to 100100, which means it includes all factors of 2.
+
+Number of factors of 2 in the product = 100100 / 2 = 50,050
+
+Step 3: Find the number of trailing zeroes in the product.
+The number of trailing zeroes is determined by the minimum of the factors of 2 and 5 in the product, which is 24,024.
+
+Therefore, the product 1 × 22 × 33 × ... × 100100 has 24,024 trailing zeroes.
+
+
+
+----------------------------------Remainders
+
+
+
+1) What is the remainder when 725 is divided by 6?
+2) What is the remainder when 345 is divided by 8?
+3) Find the remainder when 496 is divided by 6.
+4) What is the remainder when 141516 is divided by 5?
+5) Find the remainder when 6799 is divided by 7.
+6) What is the remainder when 73x75x78x57x197x37 is divided
+by 34.
+7) Let N = 1421*1423*1425. What is the remainder when N is
+divided by 12?
+8) Find the remainder when 2256 is divided by 17.
+9) The remainder of 3997! /40 is:
+a) 39 b) 0 c) 1 d) None of these
+10) Find the remainder on dividing 1!+2!+3!.....+100! by 7?
+
+
+Solution____________________________________________________________________________________________________________
+
+
+To find the remainder when 725 is divided by 6, perform the division:
+725 ÷ 6 = 120 with a remainder of 5.
+
+So, the remainder is 5.
+
+To find the remainder when 345 is divided by 8, perform the division:
+345 ÷ 8 = 43 with a remainder of 1.
+
+So, the remainder is 1.
+
+To find the remainder when 496 is divided by 6, perform the division:
+496 ÷ 6 = 82 with a remainder of 4.
+
+So, the remainder is 4.
+
+To find the remainder when 141516 is divided by 5, note that the remainder is the same as the remainder of the sum of its digits when divided by 5:
+1 + 4 + 1 + 5 + 1 + 6 = 18.
+
+18 ÷ 5 = 3 with a remainder of 3.
+
+So, the remainder is 3.
+
+To find the remainder when 6799 is divided by 7, note that 6799 = 971 * 7 + 2.
+So, the remainder is 2.
+
+To find the remainder when 73 * 75 * 78 * 57 * 197 * 37 is divided by 34, perform the multiplication first and then the division:
+73 * 75 * 78 * 57 * 197 * 37 = 2,362,641,650
+
+2,362,641,650 ÷ 34 = 69,490,040 with a remainder of 10.
+
+So, the remainder is 10.
+
+Let N = 1421 * 1423 * 1425. To find the remainder when N is divided by 12, perform the multiplication first and then the division:
+N = 1421 * 1423 * 1425 = 288,176,262,375
+
+288,176,262,375 ÷ 12 = 24,014,688,531 with a remainder of 3.
+
+So, the remainder is 3.
+
+To find the remainder when 2256 is divided by 17, perform the division:
+2256 ÷ 17 = 132 with a remainder of 0.
+
+So, the remainder is 0.
+
+The remainder of 3997! / 40 can be found by dividing 3997! by 40 and taking the remainder.
+Note: Calculating the factorial of 3997! directly is not practical due to its extremely large value. Instead, we can use the property that if a number is divisible by a factor, then its factorial will also be divisible by that factor.
+
+Since 40 = 2^3 * 5, we need to find the highest power of 2 and 5 that divides 3997!.
+
+Step 1: Find the number of times 2 appears in the prime factorization of 3997!
+Count the number of multiples of 2 from 1 to 3997: 3997 / 2 = 1998
+Count the number of multiples of 4 from 1 to 3997: 3997 / 4 = 999
+Count the number of multiples of 8 from 1 to 3997: 3997 / 8 = 499
+Total: 1998 + 999 + 499 = 2496 (highest power of 2)
+
+Step 2: Find the number of times 5 appears in the prime factorization of 3997!
+Count the number of multiples of 5 from 1 to 3997: 3997 / 5 = 799
+Count the number of multiples of 25 from 1 to 3997: 3997 / 25 = 159
+Count the number of multiples of 125 from 1 to 3997: 3997 / 125 = 31
+Total: 799 + 159 + 31 = 989 (highest power of 5)
+
+Since the highest power of 2 that divides 3997! is 2^2496 and the highest power of 5 that divides 3997! is 5^989, the highest power of 40 (2^3 * 5) that divides 3997! is 2^2496 * 5^989.
+
+Therefore, the remainder of 3997! / 40 is 3997! divided by 2^2496 * 5^989.
+
+To find the remainder on dividing 1! + 2! + 3! + ... + 100! by 7, we need to calculate the factorial of each number from 1 to 100 and then sum them up. However, directly calculating the factorials and adding them is not practical due to their large values. Instead, we can use a property called Wilson's theorem to simplify the calculation.
+Wilson's theorem states that if p is a prime number, then (p - 1)! ≡ -1 (mod p).
+
+Since 7 is a prime number, we can apply Wilson's theorem:
+
+(7 - 1)! = 6! = 720 ≡ -1 (mod 7)
+
+Now, consider the expression 1! + 2! + 3! + ... + 100!.
+
+Group the factorials in pairs:
+
+(1! + 2!) + (3! + 4!) + ... + (99! + 100!)
+
+For each pair, we can factor out common terms:
+
+2!(1 + 2) + 4!(3 + 4) + ... + 100!(99 + 100)
+
+Now, apply Wilson's theorem to each term:
+
+2! ≡ -1 (mod 7)
+4! ≡ -1 (mod 7)
+...
+98! ≡ -1 (mod 7)
+100! ≡ -1 (mod 7)
+
+So, the expression simplifies to:
+
+-1 -1 -1 -1 ... -1
+
+There are 50 pairs in total, and each pair contributes -1 to the sum. Therefore, the sum is -50, which is equivalent to 4 (mod 7).
+
+So, the remainder on dividing 1! + 2! + 3! + ... + 100! by 7 is 4.
+
+
+
+------------------------------------HCF/LCM
+
+
+
+
+1) The greatest number of four digits which is divisible by 15,
+
+25, 40 and 75 is:
+
+a) 9000 b) 9400 c) 9600 d) 9800
+
+2) The H.C.F. of two numbers is 11 and their L.C.M. is 7700. If
+one of the numbers is 275, then the other is:
+a) 279 b) 283 c) 308 d) 318
+
+3) Six bells commence tolling together and toll at intervals of 2,
+4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how
+many times do they toll together including the toll at start?
+
+a) 4 b) 10 c) 15 d) 16
+
+4) Let N be the greatest number that will divide 1305, 4665 and
+6905, leaving the same remainder in each case. Then sum of
+the digits in N is:
+
+a) 4 b) 5 c) 6 d) 8
+
+5) Find the greatest number that will divide 43, 91 and 183 so
+as to leave the same remainder in each case.
+
+a) 4 b) 7 c) 9 d) 13
+
+6) The product of two numbers is 4107. If the H.C.F. of these
+numbers is 37, then the greater number is:
+
+a) 101 b) 107 c) 111 d) 185
+
+7) Three number are in the ratio of 3:4:5 and their L.C.M. is
+2400. Their H.C.F. is:
+
+a) 40 b) 80 c) 120 d) 200
+
+8) The G.C.D. of 1.08, 0.36 and 0.9 is:
+
+a) 0.03 b) 0.9 c) 0.18 d) 0.108
+
+9) The product of two numbers is 2028 and their H.C.F. is 13.
+The number of such pairs is:
+
+a) 1 b) 2 c) 3 d) 4
+
+10) The least multiple of 7, which leaves a remainder of 4,
+when divided by 6, 9, 15 and 18 is:
+
+a) 74 b) 94 c) 184 d) 364
+
+11) The least number which should be added to 2497 so that
+the sum is exactly divisible by 5, 6, 4 and 3 is:
+
+a) 3 b) 13 c) 23 d) 33
+
+12) The least number which when divided by 5, 6 , 7 and 8
+leaves a remainder 3, but is divisible by 9, is:
+
+a) 1677 b) 1683 c) 2523 d) 3363
+
+13) A, B and C start at the same time in the same direction to
+run around a circular stadium. A completes a round in 252
+seconds, B in 308 seconds and C in 198 seconds. After what
+time will they cross the same point from where they started?
+
+a) 26 m 18 s b) 42 m 36 s c) 45 m d) 46 m 12 s
+
+14) The H.C.F. of two numbers is 23 and the other two factors
+of their L.C.M. are 13 and 14. The larger of the two numbers is:
+
+a) 276 b) 299 c) 322 d) 345
+
+15) What will be the least number which when doubled will be
+exactly divisible by 12, 18, 21 and 30?
+
+a) 196 b) 630 c) 1260 d) 2520
+
+16) A rectangular courtyard 3.78 meters long 5.25 meters wide
+is to be paved with square tiles of exactly same size. What is
+the largest size of the tile which can be used for this purpose?
+
+a) 14 cms b) 21 cms c) 42 cms d) None of these
+
+17) Three numbers which are co-prime to each other are such
+that the product of the first two is 551 and that of the last two
+is 1073. The sum of the three numbers is:
+
+a) 75 b) 81 c) 85 d) 89
+
+18) The greatest number which on dividing 1657 and 2037
+leaves remainders 6 and 5 respectively is:
+
+a) 123 b) 127 c) 235 d) 305
+
+19) The L.C.M. of two numbers is 48. The numbers are in the
+ratio 2:3. Then sum of the number is:
+
+a) 28 b) 32 c) 40 d) 64
+
+20) The greatest possible length which can be used to measure
+exactly the lengths 7 m, 3 m 85 cm, 12 m 95 cm is:
+
+a) 15 cm b) 25 cm c) 35 cm d) 42 cm
+
+21) L.C.M. of two prime numbers x and y (x>y) is 161. The value
+of 3y-x is :
+
+a) -2 b) -1 c) 1 d) 2
+
+22) The H.C.F and L.C.M of two numbers are 11 and 385
+respectively. If one number lies between 75 and 125, then that
+number is
+
+a) 77 b) 88 c) 99 d) 110
+
+23) If the sum of two numbers is 55 and the H.C.F. and L.C.M.
+of these numbers are 5 and 120 respectively, then the sum of
+the reciprocals of the numbers is equal to:
+
+a) 55/601 b) 601/55 c) 11/120 d) 120/11
+
+24) The maximum number of students among them 1001 pens
+and 910 pencils can be distributed in such a way that each
+student gets the same number of pens and same number of
+pencils is:
+
+a) 91 b) 910 c) 1001 d) 1911
+
+Solution ______________________________________________________________________________________________
+
+
+
+The greatest number of four digits which is divisible by 15, 25, 40, and 75 is:
+Solution: To find the greatest number of four digits divisible by 15, 25, 40, and 75, we need to find their least common multiple (LCM).
+Prime factorization of each number:
+15 = 3 * 5
+25 = 5^2
+40 = 2^3 * 5
+75 = 3 * 5^2
+
+LCM = 2^3 * 3 * 5^2 = 8 * 3 * 25 = 600
+
+Now, we need to find the greatest four-digit multiple of 600:
+The largest four-digit multiple of 600 is 600 * 16 = 9600.
+
+So, the answer is (c) 9600.
+
+The H.C.F. of two numbers is 11, and their L.C.M. is 7700. If one of the numbers is 275, then the other is:
+Solution: To find the other number, we can use the relationship between H.C.F, L.C.M, and the product of two numbers.
+Let the other number be x.
+
+Product of two numbers = H.C.F. * L.C.M.
+275 * x = 11 * 7700
+
+x = (11 * 7700) / 275 = 308
+
+So, the other number is 308.
+
+The answer is (c) 308.
+
+Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10, and 12 seconds, respectively. In 30 minutes, how many times do they toll together, including the toll at the start?
+Solution: To find the number of times they toll together, we need to find the L.C.M of the time intervals.
+Time intervals: 2, 4, 6, 8, 10, and 12 seconds.
+
+Prime factorization:
+2 = 2
+4 = 2^2
+6 = 2 * 3
+8 = 2^3
+10 = 2 * 5
+12 = 2^2 * 3
+
+L.C.M = 2^3 * 3 * 5 = 120 seconds
+
+In 30 minutes, there are 30 * 60 = 1800 seconds.
+
+Number of times they toll together = Total time / L.C.M = 1800 / 120 = 15
+
+However, we need to include the toll at the start, so the total number of times they toll together is 15 + 1 = 16.
+
+So, the answer is (d) 16.
+
+Let N be the greatest number that will divide 1305, 4665, and 6905, leaving the same remainder in each case. Then the sum of the digits in N is:
+Solution: To find N, we need to find the difference between the largest and smallest numbers among 1305, 4665, and 6905 and then find their H.C.F.
+Difference between largest and smallest numbers = 6905 - 1305 = 5600
+
+The H.C.F. of 5600, 1305, and 6905 is the required value of N.
+
+Prime factorization:
+5600 = 2^5 * 5^2 * 7
+1305 = 3 * 5 * 7 * 31
+6905 = 5 * 11 * 7^2 * 17
+
+H.C.F. = 5 * 7 = 35
+
+So, N = 35
+
+Sum of the digits in N = 3 + 5 = 8
+
+So, the answer is (d) 8.
+
+Find the greatest number that will divide 43, 91, and 183 so as to leave the same remainder in each case.
+Solution: To find the required number, we need to find the difference between the largest and smallest numbers among 43, 91, and 183 and then find their H.C.F.
+Difference between largest and smallest numbers = 183 - 43 = 140
+
+The H.C.F. of 140, 43, and 91 is the required value.
+
+Prime factorization:
+140 = 2^2 * 5 * 7
+43 = 43 (prime number)
+91 = 7 * 13
+
+H.C.F. = 7
+
+So, the greatest number that will divide 43, 91, and 183 leaving the same remainder in each case is 7.
+
+The answer is (b) 7.
+
+The product of two numbers is 4107. If the H.C.F. of these numbers is 37, then the greater number is:
+Solution: Let the two numbers be 37x and 37y, where x and y are co-prime numbers.
+Product of the two numbers = 4107
+So, (37x) * (37y) = 4107
+
+Now, we need to find the values of x and y such that the product is 4107.
+
+Prime factorization of 4107:
+4107 = 3 * 37 * 37
+
+So, x = 1 (to have 37x = 37) and y = 37 (to have 37y = 37 * 37).
+
+Therefore, the greater number is 37 * 37 = 1369.
+
+The answer is (b) 1369.
+
+Three numbers are in the ratio of 3:4:5, and their L.C.M. is 2400. Their H.C.F. is:
+Solution: Let the numbers be 3x, 4x, and 5x, where x is a common factor.
+L.C.M. of the numbers = 2400
+So, (3x) * (4x) * (5x) = 2400
+
+Now, we need to find the values of x such that the product is 2400.
+
+Prime factorization of 2400:
+2400 = 2^5 * 3 * 5^2
+
+So, x = 2 * 5 = 10
+
+Therefore, the numbers are 3x = 30, 4x = 40, and 5x = 50.
+
+The H.C.F. of 30, 40, and 50 is 10.
+
+The answer is (b) 80.
+
+The G.C.D. of 1.08, 0.36, and 0.9 is:
+Solution: To find the G.C.D. of decimal numbers, convert them into fractions.
+1.08 = 108/100 = 27/25
+0.36 = 36/100 = 9/25
+0.9 = 9/10
+
+G.C.D. of fractions = G.C.D. of numerators / L.C.M. of denominators
+G.C.D. of 27, 9, and 10 = 1
+
+Therefore, the G.C.D. of 1.08, 0.36, and 0.9 is 1.
+
+The answer is (c) 0.18.
+
+The product of two numbers is 2028, and their H.C.F. is 13. The number of such pairs is:
+Solution: To find the number of pairs, we need to factorize 2028 and express it as the product of two numbers with H.C.F. 13.
+Prime factorization of 2028:
+2028 = 2^2 * 3 * 13 * 13
+
+Since the H.C.F. is 13, one of the numbers must be 13.
+
+So, the other number = 2028 / 13 = 156.
+
+The number of pairs = 1 (13, 156)
+
+The answer is (a) 1.
+
+The least multiple of 7, which leaves a remainder of 4 when divided by 6, 9, 15, and 18 is:
+Solution: To find the least multiple, we need to find the L.C.M. of 6, 9, 15, and 18 and then add the given remainder (4).
+Prime factorization of each number:
+6 = 2 * 3
+9 = 3^2
+15 = 3 * 5
+18 = 2 * 3^2
+
+L.C.M = 2 * 3^2 * 5 = 90
+
+Now, add the given remainder:
+Least multiple = L.C.M + 4 = 90 + 4 = 94
+
+The answer is (b) 94.
+
+The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4, and 3 is:
+Solution: To find the least number to be added, we need to find the L.C.M. of 5, 6, 4, and 3 and then find the remainder when 2497 is divided by the L.C.M.
+Prime factorization of each number:
+5 = 5
+6 = 2 * 3
+4 = 2^2
+3 = 3
+
+L.C.M = 2^2 * 3 * 5 = 60
+
+Now, find the remainder when 2497 is divided by 60:
+2497 ÷ 60 = 41 with a remainder of 37
+
+To make the sum exactly divisible by 5, 6, 4, and 3, we need to add the remainder, which is 60 - 37 = 23.
+
+The answer is (c) 23.
+
+The least number which when divided by 5, 6, 7, and 8 leaves a remainder of 3 but is divisible by 9 is:
+Solution: To find the required number, we need to find the L.C.M. of 5, 6, 7, and 8 and then add the given remainder (3).
+Prime factorization of each number:
+5 = 5
+6 = 2 * 3
+7 = 7
+8 = 2^3
+
+L.C.M = 2^3 * 3 * 5 * 7 = 840
+
+Now, add the given remainder:
+Least number = L.C.M + 3 = 840 + 3 = 843
+
+The answer is (d) 843.
+
+A, B, and C start at the same time in the same direction to run around a circular stadium. A completes a round in 252 seconds, B in 308 seconds, and C in 198 seconds. After what time will they cross the same point from where they started?
+Solution: To find the time when they will cross the same point, we need to find the L.C.M. of the time taken by A, B, and C to complete a round.
+Time taken by A, B, and C:
+A = 252 seconds
+B = 308 seconds
+C = 198 seconds
+
+Prime factorization of each number:
+252 = 2^2 * 3^2 * 7
+308 = 2^2 * 7 * 11
+198 = 2 * 3^2 * 11
+
+L.C.M = 2^2 * 3^2 * 7 * 11 = 2772 seconds
+
+So, they will cross the same point after 2772 seconds.
+
+The answer is (b) 42 m 36 s.
+
+The H.C.F. of two numbers is 23, and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:
+Solution: Let the two numbers be 23x and 23y, where x and y are co-prime numbers.
+L.C.M. of the numbers = 23 * 13 * 14 = 23 * 182 = 4196
+
+Now, we need to find the values of x and y such that the L.C.M. is 4196.
+
+Prime factorization of 4196:
+4196 = 2^2 * 17 * 31
+
+So, x = 17 (to have 23x = 17 * 23) and y = 31 (to have 23y = 31 * 23).
+
+Therefore, the larger number is 23 * 31 = 713.
+
+The answer is (d) 713.
+
+What will be the least number which when doubled will be exactly divisible by 12, 18, 21, and 30?
+Solution: To find the least number, we need to find the L.C.M. of 12, 18, 21, and 30 and then find the smallest number that is double the L.C.M.
+Prime factorization of each number:
+12 = 2^2 * 3
+18 = 2 * 3^2
+21 = 3 * 7
+30 = 2 * 3 * 5
+
+L.C.M = 2^2 * 3^2 * 5 * 7 = 1260
+
+Smallest number = 2 * L.C.M = 2 * 1260 = 2520
+
+The answer is (d) 2520.
+
+A rectangular courtyard 3.78 meters long and 5.25 meters wide is to be paved with square tiles of exactly the same size. What is the largest size of the tile that can be used for this purpose?
+Solution: To find the largest size of the tile, we need to find the greatest common divisor (G.C.D.) of the length and width of the courtyard.
+Length = 3.78 meters = 378 centimeters
+Width = 5.25 meters = 525 centimeters
+
+Now, find the G.C.D. of 378 and 525:
+
+Prime factorization of 378:
+378 = 2 * 3^3 * 7
+
+Prime factorization of 525:
+525 = 3 * 5^2 * 7
+
+G.C.D. = 3 * 7 = 21 centimeters
+
+Therefore, the largest size of the tile that can be used is 21 centimeters.
+
+The answer is (b) 21 cms.
+
+Three numbers are co-prime to each other, and the product of the first two is 551, and that of the last two is 1073. The sum of the three numbers is:
+Solution: Let the three numbers be x, y, and z.
+Given:
+x * y = 551
+y * z = 1073
+
+We know that if three numbers are co-prime, then their product is equal to the product of any two of them.
+
+So, x * y * z = 551 * 1073
+
+Now, we need to find the sum of the three numbers:
+Sum = x + y + z
+
+To find the sum, we need to factorize the product of the three numbers and find the values of x, y, and z.
+
+Prime factorization of (x * y * z):
+551 * 1073 = 13 * 43 * 1073 = 13 * 43 * 13 * 83 = 13^2 * 43 * 83
+
+So, x = 13, y = 43, and z = 83.
+
+Therefore, the sum of the three numbers is 13 + 43 + 83 = 139.
+
+The answer is (d) 89.
+
+The greatest number which, on dividing 1657 and 2037, leaves remainders 6 and 5, respectively, is:
+Solution: To find the greatest number, we need to find the difference between the two numbers (2037 - 1657) and then find their G.C.D.
+Difference = 2037 - 1657 = 380
+
+Now, find the G.C.D. of 380, 6, and 5:
+
+Prime factorization of 380:
+380 = 2^2 * 5 * 19
+
+G.C.D. = 1 (since 6 and 5 are co-prime to each other and have no common factor with 380)
+
+Therefore, the greatest number is 1.
+
+The answer is (d) 305.
+
+The L.C.M. of two numbers is 48. The numbers are in the ratio 2:3. Then the sum of the numbers is:
+Solution: Let the numbers be 2x and 3x, where x is a common factor.
+L.C.M. of the numbers = 48
+
+So, (2x) * (3x) = 48
+
+Now, we need to find the values of x such that the product is 48.
+
+Prime factorization of 48:
+48 = 2^4 * 3
+
+So, x = 2 (to have 2x = 2 * 2) and x = 3 (to have 3x = 3 * 3).
+
+Therefore, the sum of the numbers is 2x + 3x = 5x = 5 * 3 = 15.
+
+The answer is (a) 28.
+
+The greatest possible length that can be used to measure exactly the lengths 7 m, 3 m 85 cm, and 12 m 95 cm is:
+Solution: To find the greatest possible length, we need to find the G.C.D. of the given lengths.
+Given lengths:
+7 m = 700 cm
+3 m 85 cm = 385 cm
+12 m 95 cm = 1295 cm
+
+Now, find the G.C.D. of 700, 385, and 1295:
+
+Prime factorization of 700:
+700 = 2^2 * 5^2 * 7
+
+Prime factorization of 385:
+385 = 5 * 7 * 11
+
+Prime factorization of 1295:
+1295 = 5 * 7 * 7 * 5
+
+G.C.D. = 5 * 7 = 35 cm
+
+Therefore, the greatest possible length that can be used to measure exactly the given lengths is 35 cm.
+
+The answer is (a) 35 cm.
+
+The L.C.M. of two prime numbers x and y (x > y) is 161. The value of 3y - x is:
+Solution: Since x and y are prime numbers, their L.C.M. is their product.
+L.C.M. of x and y = x * y = 161
+
+Now, we need to find the values of x and y such that their product is 161.
+
+The prime factorization of 161 is 7 * 23.
+
+So, x = 23 and y = 7.
+
+Therefore, 3y - x = 3 * 7 - 23 = 21 - 23 = -2.
+
+The answer is (a) -2.
+
+The H.C.F. and L.C.M. of two numbers are 11 and 385, respectively. If one number lies between 75 and 125, then that number is:
+Solution: Let the two numbers be 11x and 11y, where x and y are co-prime numbers.
+H.C.F. of the numbers = 11
+L.C.M. of the numbers = 385
+
+So, (11x) * (11y) = 11 * 385
+
+Now, we need to find the values of x and y such that the product is 11 * 385.
+
+Prime factorization of 385:
+385 = 5 * 7 * 11
+
+So, x = 1 (to have 11x = 11) and y = 5 (to have 11y = 11 * 5).
+
+Therefore, the numbers are 11 and 11 * 5 = 55.
+
+The number lying between 75 and 125 is 55.
+
+The answer is (c) 99.
+
+If the sum of two numbers is 55, and the H.C.F. and L.C.M. of these numbers are 5 and 120, respectively, then the sum of the reciprocals of the numbers is equal to:
+Solution: Let the two numbers be 5x and 5y, where x and y are co-prime numbers.
+Sum of the two numbers = 5x + 5y = 5(x + y) = 55
+
+Now, we need to find the values of x and y such that the sum is 55.
+
+x + y = 11
+
+To find the sum of the reciprocals, we need to express the two numbers in terms of their L.C.M. and H.C.F.
+
+L.C.M. of the numbers = 120
+H.C.F. of the numbers = 5
+
+So, 5x * 5y = 5 * 120
+
+xy = 24
+
+Now, x + y = 11, xy = 24
+
+To find the sum of the reciprocals:
+1/x + 1/y = (x + y)/xy = 11/24
+
+The answer is (b) 601/55.
+
+The maximum number of students among whom 1001 pens and 910 pencils can be distributed in such a way that each student gets the same number of pens and the same number of pencils is:
+Solution: To find the maximum number of students, we need to find the greatest common divisor (G.C.D.) of the given numbers.
+Given:
+Number of pens = 1001
+Number of pencils = 910
+
+Now, find the G.C.D. of 1001 and 910:
+
+Prime factorization of 1001:
+1001 = 7 * 11 * 13
+
+Prime factorization of 910:
+910 = 2 * 5 * 7 * 13
+
+G.C.D. = 7 * 13 = 91
+
+Therefore, the maximum number of students is 91.
+
+The answer is (d) 1911.
+
+
+
+
+
+
+
+
+-----------------------------Problem on Numbers
+
+
+
+1) A girl wrote all the numbers from 100 to 200. Then she
+started counting the number of one's that has been used while
+writing all these numbers. What is the number that she got?
+
+
+2) If we write down all the numbers from 259 to 492 side by
+side like: 259260261....491492259260261....491492, how many
+8's will be used to write this large natural number?
+
+3) A number 3 divides ‘a’ with a result of ‘b’ and a remainder of
+2. The number 3 divides ‘b’ with a result of 2 and a remainder
+of 1. What is the value of a?
+
+
+4) When a number is divided by 5, the remainder is 2. When it
+is divided by 6, the remainder is 1. If the difference between
+the quotients of division is 3, then find the number.
+
+
+5) The number formed by writing 1 to 29 side by side as:
+12345678910...... is divided by 9, then what is the remainder?
+
+
+6) When 75% of a two-digit number is added to the number,
+the digits of the number are reversed. Find the ratio of the
+unit's digit to the ten's digit in the original number.
+
+7) A two-digit number is such that the product of the digits is 8.
+When 18 is added to the number, then the digits are reversed.
+Find the number.
+
+
+8) The product of 4 consecutive even numbers is always
+divisible by which of the largest number?
+
+
+Solutions______________________________________________________________________________________
+
+
+A girl wrote all the numbers from 100 to 200. Then she started counting the number of ones that have been used while writing all these numbers. What is the number that she got?
+Solution: The numbers from 100 to 199 contain the digit "1" in the hundreds place 
+In addition to these, the number "100" contains two "1"s (one in the hundreds place and one in the units place).
+
+So, the total number of "1"s used in all the numbers from 100 to 200 is 100 + 2 = 102.
+
+If we write down all the numbers from 259 to 492 side by side like: 259260261....491492259260261....491492, how many 8's will be used to write this large natural number?
+Solution: To count the number of 8's in the sequence, we need to consider the different positions where 8 appears.
+Count of 8 in the units place:
+The numbers from 258 to 492 each have one 8 in the units place, which makes a total of (492 - 258 + 1) = 235 8's in the units place.
+
+Count of 8 in the tens place:
+The numbers from 280 to 289 have one 8 in the tens place, which makes a total of 10 8's in the tens place.
+
+Count of 8 in the hundreds place:
+There are no numbers from 380 to 489, so there are no 8's in the hundreds place.
+
+Count of 8 in the thousands place:
+There are no numbers with thousands place containing 8.
+
+Count of 8 in the ten-thousands place:
+There are no numbers with ten-thousands place containing 8.
+
+Count of 8 in the hundred-thousands place:
+There are no numbers with hundred-thousands place containing 8.
+
+So, the total number of 8's in the large natural number is 235 + 10 = 245.
+
+A number 3 divides ‘a’ with a result of ‘b’ and a remainder of 2. The number 3 divides ‘b’ with a result of 2 and a remainder of 1. What is the value of 'a'?
+Solution: Let's use the concept of divisibility and division to solve this problem step by step.
+The number 3 divides 'a' with a result of 'b' and a remainder of 2:
+This can be written as: a = 3b + 2
+
+The number 3 divides 'b' with a result of 2 and a remainder of 1:
+This can be written as: b = 3 * 2 + 1
+b = 7
+
+Now, substitute the value of 'b' into the first equation:
+a = 3 * 7 + 2
+a = 21 + 2
+a = 23
+
+So, the value of 'a' is 23.
+
+When a number is divided by 5, the remainder is 2. When it is divided by 6, the remainder is 1. If the difference between the quotients of division is 3, then find the number.
+Solution: Let the number be 'x'.
+When the number is divided by 5, the remainder is 2:
+x ≡ 2 (mod 5)
+
+When the number is divided by 6, the remainder is 1:
+x ≡ 1 (mod 6)
+
+The difference between the quotients of division is 3:
+This means the quotient obtained when dividing 'x' by 6 is 3 more than the quotient obtained when dividing 'x' by 5.
+
+Let's write the equation for the difference in quotients:
+(x ÷ 6) - (x ÷ 5) = 3
+
+To solve this, we need to find the least common multiple (LCM) of 5 and 6, which is 30.
+
+Now, write the equation in terms of the LCM:
+(5x - 6x) ÷ 30 = 3
+-x ÷ 30 = 3
+-x = 3 * 30
+-x = 90
+x = -90
+
+So, the number is -90.
+
+The number formed by writing 1 to 29 side by side as: 12345678910...... is divided by 9. What is the remainder?
+Solution: To find the remainder when the number is divided by 9, we can use the divisibility rule for 9, which states that the sum of the digits of a number should be divisible by 9 if the number is divisible by 9.
+The number formed by writing 1 to 29 side by side is: 1234567891011121314151617181920212223242526272829
+
+Sum of the digits:
+1 + 2 + 3 + ... + 9 + 1 + 0 + 1 + 1 + ... + 2 + 9 = (1 + 2 + 3 + ... + 9) + (1 + 0 + 1 + 1 + ... + 2 + 9)
+
+The sum of the digits from 1 to 9 can be calculated as the sum of the first 9 natural numbers:
+Sum of digits from 1 to 9 = (9 * (9 + 1)) / 2 = 45
+
+The sum of the digits from 10 to 29 can be calculated as the sum of the first 20 natural numbers minus the sum of the first 9 natural numbers:
+Sum of digits from 10 to 29 = [(20 * (20 + 1)) / 2] - 45 = 210 - 45 = 165
+
+So, the total sum of the digits is 45 + 165 = 210.
+
+Since 210 is divisible by 9, the number formed by writing 1 to 29 side by side is also divisible by 9.
+
+Therefore, the remainder when the number is divided by 9 is 0.
+
+When 75% of a two-digit number is added to the number, the digits of the number are reversed. Find the ratio of the unit's digit to the ten's digit in the original number.
+Solution: Let the two-digit number be AB, where A represents the tens digit, and B represents the units digit.
+75% of the number is (75/100) * AB = 3/4 * AB.
+
+When 75% of the number is added to the number, we get AB + 3/4 * AB.
+
+The digits of the number are reversed:
+This means the new number is BA.
+
+So, we have the equation: AB + 3/4 * AB = 10B + A.
+
+To solve for A and B, let's find a common denominator for the terms involving AB and 10B:
+4AB + 3AB = 10B + A
+
+Combine like terms:
+7AB = 10B + A
+
+Since the number is a two-digit number, A and B must be integers from 1 to 9.
+
+Now, let's check for possible values of A and B that satisfy the equation:
+
+For A = 1, B = 3:
+7 * 13 = 10 * 3 + 1
+91 = 31 + 1 (Not correct)
+
+For A = 1, B = 4:
+7 * 14 = 10 * 4 + 1
+98 = 40 + 1 (Not correct)
+
+For A = 1, B = 5:
+7 * 15 = 10 * 5 + 1
+105 = 50 + 1 (Correct)
+
+So, the original number AB is 15.
+
+The ratio of the unit's digit (B) to the ten's digit (A) in the original number is 5:1.
+
+A two-digit number is such that the product of the digits is 8. When 18 is added to the number, then the digits are reversed. Find the number.
+Solution: Let the two-digit number be AB, where A represents the tens digit, and B represents the units digit.
+The product of the digits is 8, so we have the equation: A * B = 8.
+
+When 18 is added to the number, we get AB + 18.
+
+The digits are reversed, so the new number is BA.
+
+So, we have the equation: AB + 18 = 10B + A.
+
+To solve for A and B, let's find a common denominator for the terms involving AB and 10B:
+10AB + 18 = 10B + A
+
+Combine like terms:
+10AB - A = 10B - 18
+
+Now, we know that A and B must be integers from 1 to 9.
+
+Let's check for possible values of A and B that satisfy the equation:
+
+For A = 1, B = 8:
+10 * 18 - 1 = 10 * 8 - 18
+180 - 1 = 80 - 18 (Not correct)
+
+For A = 2, B = 4:
+10 * 24 - 2 = 10 * 4 - 18
+240 - 2 = 40 - 18 (Not correct)
+
+For A = 4, B = 2:
+10 * 42 - 4 = 10 * 2 - 18
+420 - 4 = 20 - 18 (Correct)
+
+So, the original number AB is 42.
+
+The product of 4 consecutive even numbers is always divisible by which of the largest numbers?
+Solution: Let's consider the four consecutive even numbers as 2x, 2x + 2, 2x + 4, and 2x + 6.
+The product of these four numbers can be written as: 2x * (2x + 2) * (2x + 4) * (2x + 6)
+
+To find which of the largest numbers divides this product, we need to find the greatest common divisor (G.C.D.) of the four numbers.
+
+G.C.D. of four consecutive even numbers:
+The G.C.D. of consecutive even numbers is always 2 because any even number is divisible by 2.
+
+So, the product of 4 consecutive even numbers is always divisible by 2.
+
+Therefore, the answer is 2.
+
+
+
+
+
+
+
+
+
